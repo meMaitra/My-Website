@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 480px;
+    background-image: url("bgresume.svg");
+    background-size: cover;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: centre;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(28, 28, 28, 0.7);
+    text-shadow: rgba(0, 0, 0, 0.6) 0 5px 4px;
+}
+.myname{
+    padding: 15px;
+    margin: 0 10px; 
+    width: 40%;
+    font-size: 24px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 10px;
+
+}
+nav ul li{
+    margin: 5px;
+    padding: 15px;
+}
+nav ul li a{
+    color: white;
+    position:relative;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+a::after{
+    content: "";
+    position: absolute;
+    background-color: palevioletred;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 5px 4px;
+    height: 5px;
+    width: 0%;
+    left: 0px;
+    bottom: -21px;
+    transition: all 0.3s ease;
+}
+a.active,
+a:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+a.active::after,
+a:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+#click{
+    display: none;
+}
+.burger{
+    display: none;
+    color: white;
+    margin: 10px 25px;
+    font-size: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 540px 1fr;
+    grid-template-rows: 150px 600px;
+    place-items: center;
+    column-gap: 15px; 
+}
+.quote{
+    align-self: top;
+    font-size: 24px;
+    color: white;
+}
+.dpsign{
+    display: inline-block;
+    grid-row: 2/ span 1;
+    grid-column: 1/ span 1;
+}
+#dp{
+    display: block;
+    width: 480px;
+    height: 480px;
+    box-sizing: border-box;
+    border-radius: 240px;
+    padding: 10px;
+    border: 5px solid white;
+}
+#sign{
+    display: block;
+    width: 480px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.content{
+    height: 650px;
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.heading{
+    width:fit-content;
+    margin: auto;
+    font-size: 28px;
+    padding: 15px
+}
+.text{
+    width: 100%;
+    height: 585px;
+    padding: 15px;
+    overflow: auto;
+    text-align: justify;
+}
+
+.contact{
+    height: 60px;
+    padding: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:tan ;
+}
+
+@media (max-width: 1080px){
+    nav{
+        display: flex;
+        align-items: top;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    #click:checked ~ .burger:before{
+        content: "\f0c9";
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+
+}

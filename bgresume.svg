@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920mm"
+   height="600mm"
+   viewBox="0 0 1920 600"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="bgresume.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.05894754"
+     inkscape:cx="10119.167"
+     inkscape:cy="25.446354"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1300">
+      <stop
+         style="stop-color:#2ad4ff;stop-opacity:1"
+         offset="0"
+         id="stop1296" />
+      <stop
+         style="stop-color:#cc00ff;stop-opacity:1"
+         offset="1"
+         id="stop1298" />
+    </linearGradient>
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1281"
+         height="403"
+         id="rect906" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1300"
+       id="linearGradient1302"
+       x1="0"
+       y1="1133.8584"
+       x2="7256.6934"
+       y2="0"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(760.60557,148.618)">
+    <path
+       id="rect1043"
+       style="fill:url(#linearGradient1302);stroke-width:1.10591;fill-opacity:1"
+       d="M 0,0 V 2267.7168 L 7256.6934,1632.8379 V 0 Z"
+       transform="matrix(0.26458333,0,0,0.26458333,-760.60557,-148.618)" />
+  </g>
+</svg>
